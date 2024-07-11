@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #b60071,
+    #ae0080,
+    #a2048f,
+    #91169f,
+    #7925ae,
+    #6646c8,
+    #4960de,
+    #0076f0,
+    #009eff,
+    #00c1ff,
+    #00dffb,
+    #5ffbf1
+  );
+  font-family: "poppins";
+  height: 100vh;
+  width: 100vw;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 60%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+#lion {
+  height: 80%;
+  width: 60%;
+ text-align: center;
+  font-family: "poppins";
+  font-size: 20px;
+  vertical-align: baseline;
+  font-weight: 500;
+  border-radius:12px;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  padding: 0 16px;
+  color: #1fb91fcb;
+
+}
+
+#options {
+  /* background: rebeccapurple; */
+  height: 70%;
+  margin: 0.5rem;
+  width: 60%;
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#roller {
+  width: 100%;
+  margin-left: 0.5rem;
+  font-size: large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+#swing {
+  width: 90%;
+}
+
+#dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.swan{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#button {
+  margin: 0.5rem;
+}
+
+#button button {
+  height: 2rem;
+  padding: 0.2rem;
+}
+
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    background-image: linear-gradient(
+        to right top,
+        #b60071,
+        #ae0080,
+        #a2048f,
+        #91169f,
+        #7925ae,
+        #6646c8,
+        #4960de,
+        #0076f0,
+        #009eff,
+        #00c1ff,
+        #00dffb,
+        #5ffbf1
+      );
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
